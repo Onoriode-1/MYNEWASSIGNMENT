@@ -1,0 +1,51 @@
+html{
+   
+    background-color:rgb(246, 183, 222) ;
+    color:rgb(78, 4, 78) ;
+    
+}
+.body{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image:url("C:/Users/PC/Documents/ALTSCHOOL AFRICA/ALTSCHOOL AFRICA/homework/images/laptop.jpg") ;
+    background-size: 100% 100%;
+    text-align: left;
+    padding: 35px;
+    font-size:large;
+    align-self: center;
+}
+#goal{
+    position: relative;
+    top: 50px; ;
+    left:250px ;
+
+}
+#education{
+    position: relative;
+    top: 100px; 
+    left:30px ;
+    bottom: 150px;
+}
+#aboutme{
+    position: relative;
+    top: 50px; 
+    left:500px ;
+}
+#experience{position: relative;
+    top: 100px; 
+    left:30px ;
+    bottom: 20px;
+}
+#hobbies{
+    position: relative;
+    bottom: 420px; 
+    left:500px ;
+}
+#skills{
+    position: relative;
+    top:px; 
+    left: 500px ;
+    bottom: 400px;
+}

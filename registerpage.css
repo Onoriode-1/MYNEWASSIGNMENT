@@ -1,0 +1,22 @@
+
+.body{
+    display: inline-block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image:url("C:/Users/PC/Documents/ALTSCHOOL AFRICA/ALTSCHOOL AFRICA/homework/images/register.jpg") ;
+    background-size: 100% 100%;
+    text-align: left;
+    padding: 35px;
+    font-size:large;
+    align-self: center;
+}
+.registrationform{
+    background-color: rgb(193, 219, 243) ;
+    height: 350px;
+    width: 200px;
+    color: rgb(46, 17, 63);
+    padding: 50px;
+    border-radius: 1em;
+    position: relative;
+    left: 180px;
+}

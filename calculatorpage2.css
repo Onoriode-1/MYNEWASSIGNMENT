@@ -1,0 +1,67 @@
+html{
+    font-family:'Orbitron', sans-serif;
+    display: inline-block;
+    width: 100%;
+}     
+.body{
+    background-image:url("C:/Users/PC/Documents/ALTSCHOOL AFRICA/ALTSCHOOL AFRICA/homework/images/calculator2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+    padding: 35px;
+    font-size:large;
+    align-self: center;
+
+}
+
+.calculator-box{
+   width: 350px;
+   height:400px;
+   background-color:rgb(54, 3, 54);
+   margin:auto;
+   border-radius:1em;
+   padding:10px;
+   border:2px ;
+   border-spacing:0.5em;
+   font-family:'Orbitron' sans-serif;
+   column-width: 80px;
+}
+   
+td{
+   border:0.5px ;
+   text-align:center;
+   margin:5px;
+   border-radius:0.2em;
+   color:black;
+   background-color:lightpink;
+   font-family:'Orbitron' sans-serif;
+   
+}
+.display-screen{
+   
+   height:20%;
+   background-color:ivory;
+   border-radius:0.5em;
+   color:black;
+   border:0.5px  ;
+   font-family:'Orbitron' sans-serif;
+
+}
+.clear-button{
+   border:0.5px;
+   text-align:center;
+   margin:3px;
+   border-radius:0.2em;
+   background-color:powderblue;
+   color:crimson;
+   font-family:'Orbitron' sans-serif;
+}
+.symbol-button{
+   border:0.5px darksalmon;
+   text-align:center;
+   margin:3px;
+   border-radius:0.2em;
+   background-color:darkcyan;
+   color:black;
+   font-family:'Orbitron' sans-serif;
+}

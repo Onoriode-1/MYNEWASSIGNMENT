@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="registerpage.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body class="body">
+    <nav id="navbar">
+        <a href="portfolio.html">About Me</a>
+        <a href="contactpage.html">Contact</a>
+        <a href="registerPage.html">Register</a>
+        <a href="loginpage.html">Login</a>
+        <a href="calculatorpage2.html">Calculator</a>
+        <a href="calculatorpro.html">Calculator Pro</a>
+        </nav>    
+    <div class="registrationform">
+        
+        <form action=" " method="post">
+            <div>
+                <label for="firstname">First-Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div>
+                <label for="lastname">Last-Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value=" ">select gender</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+                    <option value="prefer not to say">prefer not to say</option>
+                </select>    
+            </div>
+            <div>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <div>
+                <label for=" state/province">State/Province:</label>
+                <input type="text" id="state/province" name="state/province" required>
+            </div>
+            <div>
+                <label for="username">User-name:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirmpasswore">Confirm Password:</label>
+                <input type="text" id="confirmpassword" name="confirmpassword" required>
+            </div>
+                <input type="button" id="register" value="register">
+        </form>
+    </div>
+</body>
+</html> 
